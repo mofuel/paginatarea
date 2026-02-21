@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AcademiaPro - Especialistas en Tareas UTP, UCV, UPN</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "navy-custom": "#0d121b",
+                        "slate-custom": "#4c669a",
+                        "border-custom": "#cfd7e7",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "3xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .fill-1 {
+            font-variation-settings: 'FILL' 1;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-navy-custom dark:text-slate-100 antialiased">
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-border-custom bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-20">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-2xl">school</span>
+</div>
+<h1 class="text-xl font-extrabold tracking-tight text-navy-custom dark:text-white">Ven Pe Academia</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold text-navy-custom hover:text-primary dark:text-slate-200 transition-colors" href="#">Inicio</a>
+<a class="text-sm font-semibold text-navy-custom hover:text-primary dark:text-slate-200 transition-colors" href="#">Cursos</a>
+<a class="text-sm font-semibold text-navy-custom hover:text-primary dark:text-slate-200 transition-colors" href="#">Tu Experto</a>
+<a class="text-sm font-semibold text-navy-custom hover:text-primary dark:text-slate-200 transition-colors" href="#">Contacto</a>
+</nav>
+<div class="flex items-center gap-3">
+<div>
+    <a href="https://api.whatsapp.com/send?phone=51997625200&text=Hola%2C%20quiero%20solicitar%20ayuda"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="flex h-10 items-center justify-center rounded-lg bg-primary px-5 text-sm font-bold text-white hover:bg-primary/90 transition-all shadow-md shadow-primary/20">
+        Solicitar Ayuda
+    </a>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="mx-auto max-w-7xl px-6 py-12 lg:px-20 lg:py-20">
+<div class="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center">
+<div class="flex flex-col gap-8">
+<div class="flex flex-col gap-4">
+<span class="inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-primary w-fit">
+<span class="material-symbols-outlined text-sm">verified</span> Soporte Académico Especializado
+                        </span>
+<h2 class="text-4xl font-black leading-[1.1] tracking-tight text-navy-custom dark:text-white md:text-5xl lg:text-6xl">
+                            Resolvemos tus tareas de UTP, UCV, UPN y más
+                        </h2>
+<p class="text-lg leading-relaxed text-slate-custom dark:text-slate-300">
+                            ¿Saturado con los trabajos de la universidad? Te ayudamos a resolver tus asignaciones con expertos calificados. Asegura tus notas en los primeros ciclos con asesoría 100% personalizada y segura.
+                        </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<div>
+    <a href="https://api.whatsapp.com/send?phone=51997625200&text=Hola%2C%20quiero%20solicitar%20asesoría"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="flex h-14 min-w-[200px] items-center justify-center rounded-xl bg-primary px-8 text-lg font-bold text-white hover:scale-[1.02] transition-transform shadow-lg shadow-primary/25">
+        Solicitar Asesoría
+    </a>
+</div>
+<div>
+    <a href="https://www.facebook.com/search/top?q=henry%20val"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="flex h-14 items-center justify-center gap-2 rounded-xl border border-border-custom bg-white dark:bg-slate-800 px-8 text-lg font-bold text-navy-custom dark:text-white hover:bg-slate-50 transition-colors">
+        <span class="material-symbols-outlined">description</span>
+        Ver Ejemplos
+    </a>
+</div>
+</div>
+<div class="flex items-center gap-4 pt-4">
+<div class="flex -space-x-3">
+<div class="h-10 w-10 rounded-full border-2 border-white bg-slate-300 dark:border-navy-custom bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAss1Sd8HV55J0uC90B6n9v3Nq3vVxlqO4vhODVorkft5wUMddEMZ92M_FrpmHDMRpFvsElZZH9DVBtctxYEppbOxK1lwfFuopJjvTrlGh7SyWIgyf9TZEIqcND3pJB2sRD8FkC0mm_FSzhE4qLCor9CwYRYFCEQ3tEdjHc49q6pBS5Cqw25Y3XqedLFjW-kgvypx5xWNT3dLJHbYwa_kenN0_6loFqPd5yM4HKc1E_xyQ2726JnlrxXmzM8lxBKpH3tyNWRR2t8KAQ')"></div>
+<div class="h-10 w-10 rounded-full border-2 border-white bg-slate-400 dark:border-navy-custom bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA9H6HEO6kWByHxtAmJYFUu7lynoGhvqMV5ATg3mwmaS2eVPWg2R4s11dbk1ZLBZryUg4Mn1jx0bmPYFm-xjRVMFouHoWxwpAM4zPhDxtSV4ENNVFCs5XZrcbKrjTRh7eMbWavoIZDDHwnGIkIMQpVXBVd0TmpyTIYtV9Nn7NKHWWk22j-6o_h_S5WxWVLnd2NoiGx2GhasxsWzwTEilmbkwXBrJ44GrPRRyr5cZcaOBQRbECa_WBFREd8HMiWfPiSC-4QmxEVcQpgx')"></div>
+<div class="h-10 w-10 rounded-full border-2 border-white bg-slate-500 dark:border-navy-custom bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-VuIOfrPF83-ELAocBOqyib-IAR9UiVwy5Ug2us3qVVH1kHghgW6-K2pKR40EJJKj1CgB9MgJoEjG3UsuqSxvNgcM1Lhvm5fDZWB7Oz7iwiEwsQQZBjaXTSlxSDxM4nZvCMuFkYHfRKRqGDbEfmMmgnY-v-b9JrJXkD0YynCnjNQ8JwsDp84IhFY4Oa6iGq13A44uC8zz8z1hgiUujyRbTUcjwx1nDsIXMYHZkBZZebf_Xq94YklXEsQvRG2f_OdOBQ0iy1aim4UC')"></div>
+</div>
+<p class="text-sm font-medium text-slate-custom dark:text-slate-400">
+                            Más de <span class="font-bold text-navy-custom dark:text-white">500 estudiantes</span> ya confían en nosotros
+                        </p>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-10 -right-10 h-64 w-64 rounded-full bg-primary/10 blur-3xl"></div>
+<div class="relative overflow-hidden rounded-3xl border border-border-custom bg-white shadow-2xl dark:border-slate-700 dark:bg-slate-800">
+<div class="h-full w-full bg-center bg-no-repeat aspect-video bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBqbfVrCygTBaIlN56eA3re9ExcTosgNgWeW2EOeaTytymm-DrSk5Y94TJ7-Vz17uD0ZFIsI0E1SjD0CRzVwR4KxbqWgx4pbPevc13jp8hfQuGBVi4LpTtcdV-Y7xI9j3QDDZnG9bGLInQ1CD9bUMxb1RkO8u_RCImAiAXzX1_Pdpqrm4NG4cNDLizyjrgUvStiwBESYueG006214VnbkPPh4lTlaTp6gCokavbiAGxdP_dLNFV_j_B-Iq8U2tL2yTHiReLCVS0XEoV')"></div>
+<div class="absolute bottom-4 left-4 right-4 rounded-xl bg-white/90 p-4 backdrop-blur-sm dark:bg-navy-custom/90 border border-white/20">
+<div class="flex items-center justify-between">
+<div>
+<p class="text-xs font-bold uppercase tracking-widest text-primary">Estado del Servicio</p>
+<p class="text-sm font-bold text-navy-custom dark:text-white">Expertos en línea ahora</p>
+</div>
+<span class="flex h-3 w-3 rounded-full bg-green-500 animate-pulse"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-white dark:bg-slate-900/30 py-20">
+<div class="mx-auto max-w-7xl px-6 lg:px-20">
+<div class="mb-12 flex flex-col items-center text-center gap-4">
+<h2 class="text-3xl font-black tracking-tight text-navy-custom dark:text-white md:text-4xl">Nuestros Cursos</h2>
+<p class="max-w-2xl text-slate-custom dark:text-slate-400">Especialistas en las materias más demandadas de las universidades privadas del Perú.</p>
+</div>
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+<div class="group flex flex-col gap-4 rounded-2xl border border-border-custom bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-xl dark:border-slate-800 dark:bg-slate-800">
+<div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">calculate</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-navy-custom dark:text-white">Matemática</h3>
+<p class="text-sm text-slate-custom dark:text-slate-400">Cálculo 1, 2, Álgebra Lineal y Estadística.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 rounded-2xl border border-border-custom bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-xl dark:border-slate-800 dark:bg-slate-800">
+<div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">edit_note</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-navy-custom dark:text-white">Redacción</h3>
+<p class="text-sm text-slate-custom dark:text-slate-400">Comprensión de textos y redacción académica.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 rounded-2xl border border-border-custom bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-xl dark:border-slate-800 dark:bg-slate-800">
+<div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">science</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-navy-custom dark:text-white">Química</h3>
+<p class="text-sm text-slate-custom dark:text-slate-400">Química General, Inorgánica y Orgánica.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4 rounded-2xl border border-border-custom bg-white p-6 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-xl dark:border-slate-800 dark:bg-slate-800">
+<div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">bolt</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-navy-custom dark:text-white">Física</h3>
+<p class="text-sm text-slate-custom dark:text-slate-400">Física 1, 2 y Mecánica de Materiales.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mx-auto max-w-7xl px-6 py-20 lg:px-20">
+<div class="relative overflow-hidden rounded-[2.5rem] bg-white border border-border-custom dark:bg-slate-800 dark:border-slate-700 shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-2">
+<div class="relative min-h-[400px] bg-red-500">
+  <div class="absolute inset-0 bg-cover bg-center"
+       style="background-image: url('https://res.cloudinary.com/dxqg3t2o3/image/upload/v1771700840/especialcine_plunbc.jpg');">
+  </div>
+</div>
+<div class="flex flex-col justify-center p-8 md:p-12 lg:p-16">
+<span class="mb-4 inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-primary">
+<span class="material-symbols-outlined text-base">person</span> Tu Especial Asignado
+                        </span>
+<h2 class="mb-2 text-3xl font-black text-navy-custom dark:text-white md:text-4xl">Hen Valqui</h2>
+<p class="mb-6 text-lg font-semibold text-primary">Egresado de Medicina de la CepreUni</p>
+<div class="mb-8 space-y-4">
+<p class="text-slate-custom dark:text-slate-300 leading-relaxed">
+                             Con más de 3 años de experiencia ayudando a estudiantes de UTP, UCV y UPN, Hen es tu aliado perfecto para resolver cualquier tarea. Su enfoque personalizado y su profundo conocimiento de los masajes tantricos, sensitivos y supersensitivos causaran un gran impacto en tus tareas y examenes.
+                            </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-green-500 fill-1">check_circle</span>
+<span class="text-sm font-medium">98% Tasa de Éxito</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-green-500 fill-1">check_circle</span>
+<span class="text-sm font-medium">Resolución en 24h</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-4 sm:flex-row">
+<div>
+    <a href="https://api.whatsapp.com/send?phone=51997625200&text=Hola%20Hen%2C%20quiero%20más%20información"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="flex h-12 items-center justify-center rounded-xl bg-navy-custom px-6 text-sm font-bold text-white hover:bg-navy-custom/90 transition-all dark:bg-primary">
+        Hablar con Hen
+    </a>
+</div>
+<div>
+    <a href="https://www.instagram.com/mauricioval123/?hl=es-la"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="flex h-12 items-center justify-center rounded-xl border border-border-custom px-6 text-sm font-bold text-navy-custom dark:text-white hover:bg-slate-50 transition-all">
+        Ver Perfil Completo
+    </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mx-auto max-w-7xl px-6 pb-20 lg:px-20">
+<div class="relative overflow-hidden rounded-[2rem] bg-navy-custom p-8 md:p-16 dark:bg-primary/20 border border-primary/20">
+<div class="absolute -top-24 -right-24 h-64 w-64 rounded-full bg-primary/40 blur-[100px]"></div>
+<div class="relative z-10 flex flex-col items-center justify-center gap-8 text-center">
+<h2 class="max-w-3xl text-3xl font-black text-white md:text-5xl">
+                        ¿Listo para asegurar tus notas este ciclo?
+                    </h2>
+<p class="max-w-2xl text-lg text-slate-300">
+                        No dejes tus tareas para el último minuto. Obtén la ayuda que necesitas hoy y estudia con la tranquilidad de tener expertos de tu lado.
+                    </p>
+<div class="flex flex-wrap items-center justify-center gap-4">
+    <a href="https://api.whatsapp.com/send?phone=51997625200&text=Hola%20quiero%20enviar%20mi%20tarea"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="flex h-14 items-center justify-center gap-3 rounded-xl bg-primary px-8 text-lg font-bold text-white hover:bg-primary/90 transition-all shadow-xl shadow-primary/30">
+        <span class="material-symbols-outlined">send</span>
+        Enviar mi tarea por WhatsApp
+    </a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-border-custom bg-white py-12 dark:border-slate-800 dark:bg-background-dark">
+<div class="mx-auto max-w-7xl px-6 lg:px-20">
+<div class="grid grid-cols-1 gap-12 lg:grid-cols-4">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-xl">school</span>
+</div>
+<h2 class="text-lg font-extrabold tracking-tight text-navy-custom dark:text-white">Ven Pe Academia</h2>
+</div>
+<p class="text-sm leading-relaxed text-slate-custom dark:text-slate-400">
+                        Apoyo académico estratégico para estudiantes de UTP, UCV, UPN y otras universidades privadas del Perú.
+                    </p>
+</div>
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-navy-custom dark:text-white">Servicios</h3>
+<ul class="flex flex-col gap-4 text-sm text-slate-custom dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Resolución de Tareas</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Asesoría para Exámenes</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Proyectos Finales</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-navy-custom dark:text-white">Información</h3>
+<ul class="flex flex-col gap-4 text-sm text-slate-custom dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Nuestros Expertos</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Preguntas Frecuentes</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Testimonios</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-6">
+    <h3 class="text-sm font-bold uppercase tracking-widest text-navy-custom dark:text-white">
+        Contacto
+    </h3>
+
+    <p class="text-sm text-slate-custom dark:text-slate-400">
+        Atención inmediata vía WhatsApp para consultas y cotizaciones.
+    </p>
+
+    <a href="https://wa.me/51997625200?text=Hola%20quiero%20mas%20informacion%20sobre%20sus%20servicios"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="h-10 flex items-center justify-center rounded-lg bg-navy-custom px-4 text-sm font-bold text-white hover:bg-navy-custom/90 transition-all dark:bg-primary">
+        Escríbenos ahora
+    </a>
+</div>
+</div>
+<div class="mt-16 border-t border-border-custom pt-8 text-center text-xs text-slate-custom dark:border-slate-800">
+<p>© 2024 AcademiaPro. Todos los derechos reservados. Especialistas en currículo UTP, UCV, UPN.</p>
+</div>
+</div>
+</footer>
+<a class="fixed bottom-8 right-8 z-[100] flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl hover:scale-110 transition-transform" href="#">
+<svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+<path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-1.557-.599-2.636-1.562-1.108-.991-1.859-2.209-2.075-2.58-.216-.371-.023-.57.164-.754.169-.165.378-.445.567-.667.189-.222.252-.371.378-.617.127-.247.063-.463-.031-.66-.094-.197-.851-2.053-1.167-2.813-.308-.741-.621-.641-.851-.653-.221-.011-.473-.013-.725-.013-.252 0-.663.094-1.008.47-.347.377-1.323 1.291-1.323 3.144 0 1.853 1.354 3.646 1.543 3.906.189.26 2.665 4.07 6.456 5.707.902.39 1.605.624 2.152.798.906.287 1.731.246 2.384.148.728-.109 2.24-.915 2.555-1.799.315-.884.315-1.64.221-1.799-.094-.159-.347-.247-.694-.422z"></path>
+</svg>
+</a>
+</div>
+
+</body></html>
